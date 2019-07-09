@@ -18,10 +18,14 @@
 * Debug response time for each custom module/function/api
 * Use css sprites to combine images
 * Remove js/css comments to improve code performance
-* Optimize images
+* Optimize images 
 * Use elasticsearch for search purpose
 * Split the database
 * Perform third-party extension audit
 * Optimize poorly written code
 * Use an Image LazyLoader
+* Clean logs
+* Update Magento to latest version
+* Reduce number of DOM elements on the site
+
 
