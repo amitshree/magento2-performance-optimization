@@ -24,8 +24,9 @@
 * Perform third-party extension audit
 * Optimize poorly written code
 * Use an Image LazyLoader
-* Clean logs
+* Clean log tables (like report_event, report_viewed_product_index, customer_visitor)
 * Update Magento to latest version
 * Reduce number of DOM elements on the site
+* Debug if there are any events which can be disabled.
 
 
