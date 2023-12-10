@@ -1,0 +1,19 @@
+Folloling list of tables are safe to truncated. Please review this list before truncating to make sure you haven't done any customization in these tables and you do not want to keep this data.
+
+•	catalog_compare_item
+•	report_viewed_product_index
+•	report_viewed_product_ aggregated_daily
+•	report_viewed_product_ aggregated_monthly
+•	report_viewed_product_ aggregated_yearly
+•	report_compared_product_index
+•	report_event
+•	adminnotification_inbox
+•	customer_visitor
+•	customer_log
+•	email_catalog
+•	sales_bestsellers_aggregated_daily
+•	sales_bestsellers_aggregated_monthly
+•	sales_bestsellers_aggregated_yearly
+•	captcha_log
+•	release_notification_viewer_log
+•	sendfriend_log
