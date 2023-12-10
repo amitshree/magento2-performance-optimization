@@ -1,0 +1,15 @@
+Please do not truncate these tables. 
+
+Tables which can be optimized:
+•	inventory_reservation : Inventory mismatch happens when due to server down or some other error entry goes missing in inventory_reservation table for any order. Use the built-in command to fix Inventory Mismatch.
+•	algolia archive : If you are using algolia module then this can be cleaned time to time.
+•	url_rewrite: Do you have configurable products and associated simple products in your website but associated simple products are not visible individually on the website? url is created and entry made in url_rewrite tables for all products irrespective of their visibility. Even if they are not visible individually, the url is created for them. So, the question is why allow url creation for this kind of products? You can overwrite the url creation module and skip creation of urls for products which are not visible alone on frontend.
+•	persistent_session
+•	wishlist_item, wishlist_item_option
+•	quote* : You might consider deleting very old quotes.
+•	importexport_importdata : You might consider deleting old data.
+•	import_history : You might consider deleting old data.
+•	report_viewed_product_index: Delete old reports using DELETE FROM report_viewed_product_index WHERE added_at < DATE_SUB(NOW(), INTERVAL 30 DAY);
+
+Tables data which can be archived:
+•	order related table can be archived periodically
